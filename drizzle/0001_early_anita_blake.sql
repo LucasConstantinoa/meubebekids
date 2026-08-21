@@ -1,0 +1,2 @@
+ALTER TABLE `customerOrders` MODIFY COLUMN `status` enum('new','responded','completed') NOT NULL DEFAULT 'new';--> statement-breakpoint
+ALTER TABLE `storeProducts` ADD `featured` boolean DEFAULT false NOT NULL;
